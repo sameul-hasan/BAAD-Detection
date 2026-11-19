@@ -1,0 +1,10 @@
+file,speaker,duration_s,detected_events,vad_active_ratio
+11_5.4ft_73kg_Gazipur-2021165.wav,a11,147.93,100,0.986
+12_5.7ft_17y_78kg_Dhaka.wav,a12,206.65,35,1.0
+22_5.10ft_60kg_22y_Narayanganj.wav,a22,194.66,66,0.86
+32_5.2ft_78kg_21y_Tangail.wav,a32,403.04,69,0.964
+39_5.3ft_58kg_21_Dhaka.wav,a39,375.58,68,0.999
+43_5.5ft_57kg_23y_B-Baria.wav,a43,152.73,44,0.9
+48_5.9ft_75kg_23y_Cumilla.wav,a48,99.58,19,0.988
+51_5.8ft_75kg_23_Meherpur.wav,a51,139.41,68,0.999
+54_5.10ft_98kg_21y_Dhaka.wav,a54,360.36,53,0.998

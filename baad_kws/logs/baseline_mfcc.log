@@ -1,0 +1,1 @@
+2026-11-19 12:53:33 | INFO    | baad.baseline_mfcc | MFCC Baseline B1 results: {'fit_sec': 27.55, 'val_word_acc': 0.2543, 'val_macro_f1': 0.2358, 'val_abusive_prec': 0.9266, 'val_abusive_rec': 0.9318, 'val_abusive_f1': 0.9292, 'test_word_acc': 0.2182, 'test_macro_f1': 0.2313, 'test_abusive_prec': 0.9297, 'test_abusive_rec': 0.8924, 'test_abusive_f1': 0.9107}

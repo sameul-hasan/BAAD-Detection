@@ -1,0 +1,18 @@
+2026-11-19 12:50:43 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/train.tsv
+2026-11-19 12:50:44 | INFO    | baad.download_fleurs | Downloaded train.tsv (3.48 MB)
+2026-11-19 12:50:44 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/audio/train.tar.gz
+2026-11-19 12:51:12 | INFO    | baad.download_fleurs | Downloaded train.tar.gz (2034.71 MB)
+2026-11-19 12:51:12 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/dev.tsv
+2026-11-19 12:51:12 | INFO    | baad.download_fleurs | Downloaded dev.tsv (0.47 MB)
+2026-11-19 12:51:12 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/audio/dev.tar.gz
+2026-11-19 12:51:16 | INFO    | baad.download_fleurs | Downloaded dev.tar.gz (278.67 MB)
+2026-11-19 12:51:16 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/test.tsv
+2026-11-19 12:51:17 | INFO    | baad.download_fleurs | Downloaded test.tsv (1.09 MB)
+2026-11-19 12:51:17 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/audio/test.tar.gz
+2026-11-19 12:51:26 | INFO    | baad.download_fleurs | Downloaded test.tar.gz (659.70 MB)
+2026-11-19 12:51:46 | INFO    | baad.download_fleurs | Extracting /home/sameul4740/Sameul/BAAD/baad_kws/data/external/_downloads/train.tar.gz...
+2026-11-19 12:52:11 | INFO    | baad.download_fleurs | train: 3006 files, 10.73 h
+2026-11-19 12:52:11 | INFO    | baad.download_fleurs | Extracting /home/sameul4740/Sameul/BAAD/baad_kws/data/external/_downloads/dev.tar.gz...
+2026-11-19 12:52:15 | INFO    | baad.download_fleurs | val: 402 files, 1.45 h
+2026-11-19 12:52:15 | INFO    | baad.download_fleurs | Extracting /home/sameul4740/Sameul/BAAD/baad_kws/data/external/_downloads/test.tar.gz...
+2026-11-19 12:52:23 | INFO    | baad.download_fleurs | test: 920 files, 3.43 h

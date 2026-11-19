@@ -1,0 +1,8 @@
+{
+  "duration": 9.25,
+  "sentence_is_offensive": false,
+  "num_abusive_events": 0,
+  "vad_active_ratio": 1.0,
+  "events": [],
+  "file": "data/synth/test/audio/test_neg_pure_0030.wav"
+}

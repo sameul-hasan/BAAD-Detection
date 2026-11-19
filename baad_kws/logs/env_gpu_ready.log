@@ -1,0 +1,1 @@
+2026-11-19 13:24:36 | INFO    | baad.env_gpu_ready | GPU active: {'cuda_available': True, 'gpu_name': 'NVIDIA GeForce GTX 1660 Ti', 'vram_mb': 5747.4, 'driver_cuda': '570.211.01 / CUDA 12.8', 'torch': '2.5.1+cu124'}

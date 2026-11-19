@@ -1,0 +1,8 @@
+window_sec: 1.25
+hop_sec: 0.1
+smooth_k: 4
+threshold: 0.9
+binary_threshold: 0.95
+refractory_sec: 0.7
+vad_rms_thresh: 0.005
+show_close: false

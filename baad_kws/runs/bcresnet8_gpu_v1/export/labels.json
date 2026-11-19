@@ -1,0 +1,1080 @@
+[
+ {
+  "id": 0,
+  "key": "a:শুয়র",
+  "word": "শুয়র",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 1,
+  "key": "a:কুত্তা",
+  "word": "কুত্তা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 2,
+  "key": "a:হারামি",
+  "word": "হারামি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 3,
+  "key": "a:হাারামজাদা",
+  "word": "হাারামজাদা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 4,
+  "key": "a:হারামখোর",
+  "word": "হারামখোর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 5,
+  "key": "a:খাঙ্কি",
+  "word": "খাঙ্কি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 6,
+  "key": "a:মাগি",
+  "word": "মাগি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 7,
+  "key": "a:চোদন",
+  "word": "চোদন",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 8,
+  "key": "a:চুদির ভাই",
+  "word": "চুদির ভাই",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 9,
+  "key": "a:চুতমারানি",
+  "word": "চুতমারানি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 10,
+  "key": "a:হুমুন্দির-পুত",
+  "word": "হুমুন্দির-পুত",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 11,
+  "key": "a:ম্যাঙ্গের-পোলা",
+  "word": "ম্যাঙ্গের-পোলা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 12,
+  "key": "a:লেউরা",
+  "word": "লেউরা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 13,
+  "key": "a:হাউয়া",
+  "word": "হাউয়া",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 14,
+  "key": "a:পাছা-মারা",
+  "word": "পাছা-মারা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 15,
+  "key": "a:গুয়া-মারা",
+  "word": "গুয়া-মারা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 16,
+  "key": "a:হোগা",
+  "word": "হোগা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 17,
+  "key": "a:হালা",
+  "word": "হালা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 18,
+  "key": "a:বানচোত",
+  "word": "বানচোত",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 19,
+  "key": "a:পুটকি",
+  "word": "পুটকি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 20,
+  "key": "a:বাল পাকনা",
+  "word": "বাল পাকনা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 21,
+  "key": "a:পেদামু",
+  "word": "পেদামু",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 22,
+  "key": "a:ধোন",
+  "word": "ধোন",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 23,
+  "key": "a:ভোদাই",
+  "word": "ভোদাই",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 24,
+  "key": "a:নটি",
+  "word": "নটি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 25,
+  "key": "a:বেশ্যা",
+  "word": "বেশ্যা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 26,
+  "key": "a:পুটকি-মারা",
+  "word": "পুটকি-মারা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 27,
+  "key": "a:চুদনা",
+  "word": "চুদনা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 28,
+  "key": "a:মিরজাফর",
+  "word": "মিরজাফর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 29,
+  "key": "a:চুদা",
+  "word": "চুদা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 30,
+  "key": "a:বাইনচোদ",
+  "word": "বাইনচোদ",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 31,
+  "key": "a:লেদানি",
+  "word": "লেদানি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 32,
+  "key": "a:মাদারচোদ",
+  "word": "মাদারচোদ",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 33,
+  "key": "a:খবিশ",
+  "word": "খবিশ",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 34,
+  "key": "a:বোকাচোদা",
+  "word": "বোকাচোদা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 35,
+  "key": "a:বকচয়",
+  "word": "বকচয়",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 36,
+  "key": "a:জঙ্গি",
+  "word": "জঙ্গি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 37,
+  "key": "a:কাইল্লা",
+  "word": "কাইল্লা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 38,
+  "key": "a:পাকিস্তানি",
+  "word": "পাকিস্তানি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 39,
+  "key": "a:হিটলার",
+  "word": "হিটলার",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 40,
+  "key": "a:লাদেন",
+  "word": "লাদেন",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 41,
+  "key": "a:ফটকা",
+  "word": "ফটকা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 42,
+  "key": "a:জামাত",
+  "word": "জামাত",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 43,
+  "key": "a:তালেবান",
+  "word": "তালেবান",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 44,
+  "key": "a:হেডা",
+  "word": "হেডা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 45,
+  "key": "a:ছামা",
+  "word": "ছামা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 46,
+  "key": "a:খাইস্টা",
+  "word": "খাইস্টা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 47,
+  "key": "a:গাউড়াা",
+  "word": "গাউড়াা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 48,
+  "key": "a:বলদ",
+  "word": "বলদ",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 49,
+  "key": "a:ছ্যাসরা",
+  "word": "ছ্যাসরা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 50,
+  "key": "a:মাথামোটা",
+  "word": "মাথামোটা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 51,
+  "key": "a:গু-খা",
+  "word": "গু-খা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 52,
+  "key": "a:মাদারি",
+  "word": "মাদারি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 53,
+  "key": "a:বেক্কল",
+  "word": "বেক্কল",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 54,
+  "key": "a:দালাল",
+  "word": "দালাল",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 55,
+  "key": "a:শালা",
+  "word": "শালা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 56,
+  "key": "a:বাইট্টা",
+  "word": "বাইট্টা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 57,
+  "key": "a:নস্টা",
+  "word": "নস্টা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 58,
+  "key": "a:গরুচোর",
+  "word": "গরুচোর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 59,
+  "key": "a:গাধা",
+  "word": "গাধা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 60,
+  "key": "a:শয়তান",
+  "word": "শয়তান",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 61,
+  "key": "a:নলা",
+  "word": "নলা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 62,
+  "key": "a:রাজাকার",
+  "word": "রাজাকার",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 63,
+  "key": "a:ছোট ধন",
+  "word": "ছোট ধন",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 64,
+  "key": "a:নেংটা",
+  "word": "নেংটা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 65,
+  "key": "a:ইবলিশ",
+  "word": "ইবলিশ",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 66,
+  "key": "a:ইতর",
+  "word": "ইতর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 67,
+  "key": "a:গুশখোর",
+  "word": "গুশখোর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 68,
+  "key": "a:সুদখোর",
+  "word": "সুদখোর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 69,
+  "key": "a:মদখোর",
+  "word": "মদখোর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 70,
+  "key": "a:নেশাখোর",
+  "word": "নেশাখোর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 71,
+  "key": "a:হিজড়া",
+  "word": "হিজড়া",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 72,
+  "key": "a:সাউয়া",
+  "word": "সাউয়া",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 73,
+  "key": "a:বাদাইম্মা",
+  "word": "বাদাইম্মা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 74,
+  "key": "a:বইতল",
+  "word": "বইতল",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 75,
+  "key": "a:বকলম",
+  "word": "বকলম",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 76,
+  "key": "a:বগা",
+  "word": "বগা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 77,
+  "key": "a:ছেন",
+  "word": "ছেন",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 78,
+  "key": "a:ধুর বাল",
+  "word": "ধুর বাল",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 79,
+  "key": "a:কাচ কলা",
+  "word": "কাচ কলা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 80,
+  "key": "a:ঠ্যাঙ্গা",
+  "word": "ঠ্যাঙ্গা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 81,
+  "key": "a:কুত্তি",
+  "word": "কুত্তি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 82,
+  "key": "a:আচুদা",
+  "word": "আচুদা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 83,
+  "key": "a:ফুনগা",
+  "word": "ফুনগা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 84,
+  "key": "a:চুদানিরপো",
+  "word": "চুদানিরপো",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 85,
+  "key": "a:খাওয়া মাল",
+  "word": "খাওয়া মাল",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 86,
+  "key": "a:হিরোইঞ্চি",
+  "word": "হিরোইঞ্চি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 87,
+  "key": "a:মালউন",
+  "word": "মালউন",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 88,
+  "key": "a:ধইঞ্চা",
+  "word": "ধইঞ্চা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 89,
+  "key": "a:ফকিন্নির-পুত",
+  "word": "ফকিন্নির-পুত",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 90,
+  "key": "a:তুই মর",
+  "word": "তুই মর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 91,
+  "key": "a:তুই রোহিঙ্গা",
+  "word": "তুই রোহিঙ্গা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 92,
+  "key": "a:ধুর-কানা",
+  "word": "ধুর-কানা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 93,
+  "key": "a:চামছা",
+  "word": "চামছা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 94,
+  "key": "a:লুইচ্চা",
+  "word": "লুইচ্চা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 95,
+  "key": "a:মাগিবাজ",
+  "word": "মাগিবাজ",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 96,
+  "key": "a:হালাায় ভন্ড",
+  "word": "হালাায় ভন্ড",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 97,
+  "key": "a:অমানুষের বাচ্চা",
+  "word": "অমানুষের বাচ্চা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 98,
+  "key": "a:মাগিখোর",
+  "word": "মাগিখোর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 99,
+  "key": "a:গাঞ্জাখর",
+  "word": "গাঞ্জাখর",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 100,
+  "key": "a:যারয পোলা",
+  "word": "যারয পোলা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 101,
+  "key": "a:ঐ শালী",
+  "word": "ঐ শালী",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 102,
+  "key": "a:তুই মুরি খা",
+  "word": "তুই মুরি খা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 103,
+  "key": "a:চুদা-খা",
+  "word": "চুদা-খা",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 104,
+  "key": "a:নিগ্রো",
+  "word": "নিগ্রো",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 105,
+  "key": "a:বারোভাতারি",
+  "word": "বারোভাতারি",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 106,
+  "key": "a:মাল",
+  "word": "মাল",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 107,
+  "key": "a:হেডাম",
+  "word": "হেডাম",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 108,
+  "key": "a:ভইরা দিমু",
+  "word": "ভইরা দিমু",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 109,
+  "key": "a:ভগচোদ",
+  "word": "ভগচোদ",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 110,
+  "key": "a:বাল",
+  "word": "বাল",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 111,
+  "key": "a:জূতামু",
+  "word": "জূতামু",
+  "is_abusive": true,
+  "kind": "abusive"
+ },
+ {
+  "id": 112,
+  "key": "c:শুকর",
+  "word": "শুকর",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 113,
+  "key": "c:কুকুর",
+  "word": "কুকুর",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 114,
+  "key": "c:হারাাম খওয়া",
+  "word": "হারাাম খওয়া",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 115,
+  "key": "c:সম্মন্দির ছেলে",
+  "word": "সম্মন্দির ছেলে",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 116,
+  "key": "c:শ্যালক",
+  "word": "শ্যালক",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 117,
+  "key": "c:পিটামু",
+  "word": "পিটামু",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 118,
+  "key": "c:লিঙ্গ",
+  "word": "লিঙ্গ",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 119,
+  "key": "c:ভুদাই",
+  "word": "ভুদাই",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 120,
+  "key": "c:বিশ্বাসঘাতক",
+  "word": "বিশ্বাসঘাতক",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 121,
+  "key": "c:পেদানি",
+  "word": "পেদানি",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 122,
+  "key": "c:পিচাশ",
+  "word": "পিচাশ",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 123,
+  "key": "c:জংলি",
+  "word": "জংলি",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 124,
+  "key": "c:কালো",
+  "word": "কালো",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 125,
+  "key": "c:পটকা",
+  "word": "পটকা",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 126,
+  "key": "c:কাইস্টা",
+  "word": "কাইস্টা",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 127,
+  "key": "c:ঘাউড়া",
+  "word": "ঘাউড়া",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 128,
+  "key": "c:বোকা",
+  "word": "বোকা",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 129,
+  "key": "c:নির্লজ্জ",
+  "word": "নির্লজ্জ",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 130,
+  "key": "c:আক্কেল-হিন",
+  "word": "আক্কেল-হিন",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 131,
+  "key": "c:ব্যাটে",
+  "word": "ব্যাটে",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 132,
+  "key": "c:খারাপ",
+  "word": "খারাপ",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 133,
+  "key": "c:ধান",
+  "word": "ধান",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 134,
+  "key": "c:ঘুষ নেওয়া",
+  "word": "ঘুষ নেওয়া",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 135,
+  "key": "c:সুদ নেওয়া",
+  "word": "সুদ নেওয়া",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 136,
+  "key": "c:নেশাকরা",
+  "word": "নেশাকরা",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 137,
+  "key": "c:তৃতীয় লিঙ্গ",
+  "word": "তৃতীয় লিঙ্গ",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 138,
+  "key": "c:কাচা কলা",
+  "word": "কাচা কলা",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 139,
+  "key": "c:লাঠি",
+  "word": "লাঠি",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 140,
+  "key": "c:গরিবের ছেলে",
+  "word": "গরিবের ছেলে",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 141,
+  "key": "c:ছামছা",
+  "word": "ছামছা",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 142,
+  "key": "c:সে অভদ্র",
+  "word": "সে অভদ্র",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 143,
+  "key": "c:মনুষ্যত্বহীন",
+  "word": "মনুষ্যত্বহীন",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 144,
+  "key": "c:গাজাখোর",
+  "word": "গাজাখোর",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 145,
+  "key": "c:খারাপ ছেলে",
+  "word": "খারাপ ছেলে",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 146,
+  "key": "c:শালিকা",
+  "word": "শালিকা",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 147,
+  "key": "c:তুমি মুরি খাও",
+  "word": "তুমি মুরি খাও",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 148,
+  "key": "c:বেস্তু",
+  "word": "বেস্তু",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 149,
+  "key": "c:বেডাম",
+  "word": "বেডাম",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 150,
+  "key": "c:ছাল",
+  "word": "ছাল",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 151,
+  "key": "c:জুতাপেটা",
+  "word": "জুতাপেটা",
+  "is_abusive": false,
+  "kind": "close"
+ },
+ {
+  "id": 152,
+  "key": "_unknown_",
+  "word": "_unknown_",
+  "is_abusive": false,
+  "kind": "special"
+ },
+ {
+  "id": 153,
+  "key": "_silence_",
+  "word": "_silence_",
+  "is_abusive": false,
+  "kind": "special"
+ }
+]

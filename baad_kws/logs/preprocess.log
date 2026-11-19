@@ -1,0 +1,1 @@
+2026-11-19 12:49:10 | INFO    | baad.preprocess | Preprocessed 6086 clips: {'clips_processed': 6086, 'target_sr': 16000, 'before_trim_min': 73.45, 'after_trim_min': 73.36, 'median_dur_s': 0.685, 'max_dur_s': 3.327, 'pct_gt_1_0s': 10.7, 'pct_gt_1_25s': 2.65}

@@ -1,0 +1,15 @@
+/.venv/
+/data/
+.pytest_cache/
+__pycache__/
+*.egg-info/
+*.pt
+/runs/*
+!/runs/bcresnet8_gpu_v1/
+/runs/bcresnet8_gpu_v1/*
+!/runs/bcresnet8_gpu_v1/export/
+!/runs/bcresnet8_gpu_v1/eval/
+!/runs/bcresnet8_gpu_v1/metrics.csv
+!/runs/bcresnet8_gpu_v1/training_curves.png
+!/runs/bcresnet8_gpu_v1/demo_*.json
+!/runs/bcresnet8_gpu_v1/demo_*.png

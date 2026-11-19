@@ -1,0 +1,5 @@
+2026-11-19 13:51:46 | INFO    | baad.export | Exported FP32 ONNX: runs/bcresnet8_gpu_v1/export/baad_kws_fp32.onnx (1441.4 KB)
+2026-11-19 13:51:46 | INFO    | baad.export | Found 15 logmel nodes in ONNX graph
+2026-11-19 13:51:50 | INFO    | baad.export | Quantization candidate backbone_int8: size=843.6 KB parity={'pt_vs_fp32_max_abs_diff': 9e-06, 'fp32_vs_int8_top1_agree': 0.915, 'fp32_vs_int8_cos_sim': 0.99497}
+2026-11-19 13:51:53 | INFO    | baad.export | Quantization candidate full_int8: size=530.2 KB parity={'pt_vs_fp32_max_abs_diff': 9e-06, 'fp32_vs_int8_top1_agree': 0.22, 'fp32_vs_int8_cos_sim': 0.88206}
+2026-11-19 13:51:54 | INFO    | baad.export | Final export metrics: {'fp32_kb': 1441.4, 'int8_kb': 843.6, 'int8_mb': 0.824, 'pt_vs_fp32_max_abs_diff': 9e-06, 'fp32_vs_int8_top1_agree': 0.915, 'fp32_vs_int8_cos_sim': 0.99497, 't1_mean_ms': 2.764, 't1_median_ms': 2.761, 't1_p95_ms': 2.785, 't2_mean_ms': 2.287, 't2_median_ms': 2.287, 't2_p95_ms': 2.305}

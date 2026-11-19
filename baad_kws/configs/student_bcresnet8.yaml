@@ -1,0 +1,18 @@
+run_name: bcresnet8_gpu_v1
+seed: 1337
+window_sec: 1.25
+hop_sec: 0.10
+n_mels: 40
+scale: 8
+dropout: 0.15
+
+batch_size: 128
+epochs: 60
+warmup_epochs: 3
+lr: 0.003
+min_lr: 0.00001
+weight_decay: 0.0001
+label_smoothing: 0.05
+aux_binary_weight: 0.35
+samples_per_epoch: 12800
+num_workers: 4

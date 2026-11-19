@@ -1,0 +1,8 @@
+2026-11-19 12:49:00 | INFO    | baad.build_manifest | Built manifest: clips=6086, word_labels=152, speakers=83
+2026-11-19 12:49:00 | INFO    | baad.build_manifest | Subset breakdown:
+         clips  words  speakers  minutes
+subset                                  
+abusive   5285    112        83    64.16
+close      801     40        23     9.29
+2026-11-19 12:49:00 | INFO    | baad.build_manifest | Sample rates: {44100: 4472, 16000: 1310, 48000: 289, 22050: 15}
+2026-11-19 12:49:00 | INFO    | baad.build_manifest | Merged duplicate folders: {'abusive:বলদ': ['49.বলদ', '12. বলদ'], 'abusive:বাল পাকনা': ['21.বাল পাকনা', '90.বাল পাকনা'], 'abusive:মাদারি': ['53.মাদারি', '86.মাদারি']} | Harmonized cross-subset words: ['বলদ'] (23 clips)

@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.5.1
+torchaudio==2.5.1
+numpy<2
+scipy
+pandas
+openpyxl
+soundfile
+librosa
+scikit-learn
+pyyaml
+matplotlib
+tqdm
+sounddevice
+onnx
+onnxruntime
+datasets<4
+pytest

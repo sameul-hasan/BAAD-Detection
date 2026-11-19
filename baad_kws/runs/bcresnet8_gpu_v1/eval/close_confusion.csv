@@ -1,0 +1,30 @@
+direction,true_word,pred_word,count
+abusive->close,ফটকা,পটকা,3
+abusive->close,খাইস্টা,কাইস্টা,3
+close->abusive,জংলি,জঙ্গি,2
+close->abusive,ছামছা,চামছা,2
+abusive->close,গাঞ্জাখর,গাজাখোর,1
+abusive->close,ঐ শালী,বিশ্বাসঘাতক,1
+abusive->close,জূতামু,পিটামু,1
+abusive->close,হোগা,বোকা,1
+abusive->close,ধোন,ধান,1
+abusive->close,নটি,লাঠি,1
+abusive->close,লেদানি,পেদানি,1
+abusive->close,জঙ্গি,সম্মন্দির ছেলে,1
+abusive->close,জঙ্গি,জংলি,1
+abusive->close,গাউড়াা,ঘাউড়া,1
+abusive->close,গু-খা,বোকা,1
+abusive->close,বেক্কল,বেস্তু,1
+abusive->close,খাঙ্কি,আক্কেল-হিন,1
+abusive->close,গাধা,বেডাম,1
+abusive->close,রাজাকার,গাজাখোর,1
+abusive->close,রাজাকার,খারাপ,1
+abusive->close,রাজাকার,জুতাপেটা,1
+abusive->close,নেংটা,ভুদাই,1
+abusive->close,গুশখোর,কুকুর,1
+abusive->close,ধইঞ্চা,পিটামু,1
+close->abusive,পটকা,ফটকা,1
+close->abusive,কাইস্টা,খাইস্টা,1
+close->abusive,বোকা,হোগা,1
+close->abusive,গাজাখোর,গাঞ্জাখর,1
+close->abusive,বেডাম,লেদানি,1

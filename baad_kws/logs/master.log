@@ -1,0 +1,141 @@
+2026-11-19 12:45:49 | INFO    | baad.env_audit | Environment audit: {'python': '3.10.12', 'os': 'Linux-6.8.0-149-generic-x86_64-with-glibc2.35', 'cpu_threads': 24, 'torch': '2.5.1+cu124', 'torchaudio': '2.5.1+cu124', 'cuda_available': False, 'gpu_hardware': 'NVIDIA GeForce GTX 1660 Ti (TU116, nouveau loaded; driver not active)', 'onnx': '1.23.2', 'onnxruntime': '1.23.2', 'quantization_ready': True}
+2026-11-19 12:49:00 | INFO    | baad.build_manifest | Built manifest: clips=6086, word_labels=152, speakers=83
+2026-11-19 12:49:00 | INFO    | baad.build_manifest | Subset breakdown:
+         clips  words  speakers  minutes
+subset                                  
+abusive   5285    112        83    64.16
+close      801     40        23     9.29
+2026-11-19 12:49:00 | INFO    | baad.build_manifest | Sample rates: {44100: 4472, 16000: 1310, 48000: 289, 22050: 15}
+2026-11-19 12:49:00 | INFO    | baad.build_manifest | Merged duplicate folders: {'abusive:বলদ': ['49.বলদ', '12. বলদ'], 'abusive:বাল পাকনা': ['21.বাল পাকনা', '90.বাল পাকনা'], 'abusive:মাদারি': ['53.মাদারি', '86.মাদারি']} | Harmonized cross-subset words: ['বলদ'] (23 clips)
+2026-11-19 12:49:10 | INFO    | baad.preprocess | Preprocessed 6086 clips: {'clips_processed': 6086, 'target_sr': 16000, 'before_trim_min': 73.45, 'after_trim_min': 73.36, 'median_dur_s': 0.685, 'max_dur_s': 3.327, 'pct_gt_1_0s': 10.7, 'pct_gt_1_25s': 2.65}
+2026-11-19 12:49:11 | INFO    | baad.splits | Split breakdown:
+                    clips  speakers  female_ratio
+speaker_pool split                               
+abusive      test     871         9         0.295
+             train   3514        42         0.336
+             val      877         9         0.304
+close        test     119         3         0.345
+             train    583        17         0.307
+             val      122         3         0.328
+2026-11-19 12:49:11 | INFO    | baad.splits | Missing labels -> train:[] val:[] test:[]
+2026-11-19 12:50:43 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/train.tsv
+2026-11-19 12:50:44 | INFO    | baad.download_fleurs | Downloaded train.tsv (3.48 MB)
+2026-11-19 12:50:44 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/audio/train.tar.gz
+2026-11-19 12:51:12 | INFO    | baad.download_fleurs | Downloaded train.tar.gz (2034.71 MB)
+2026-11-19 12:51:12 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/dev.tsv
+2026-11-19 12:51:12 | INFO    | baad.download_fleurs | Downloaded dev.tsv (0.47 MB)
+2026-11-19 12:51:12 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/audio/dev.tar.gz
+2026-11-19 12:51:16 | INFO    | baad.download_fleurs | Downloaded dev.tar.gz (278.67 MB)
+2026-11-19 12:51:16 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/test.tsv
+2026-11-19 12:51:17 | INFO    | baad.download_fleurs | Downloaded test.tsv (1.09 MB)
+2026-11-19 12:51:17 | INFO    | baad.download_fleurs | downloading https://huggingface.co/datasets/google/fleurs/resolve/main/data/bn_in/audio/test.tar.gz
+2026-11-19 12:51:26 | INFO    | baad.download_fleurs | Downloaded test.tar.gz (659.70 MB)
+2026-11-19 12:51:46 | INFO    | baad.download_fleurs | Extracting /home/sameul4740/Sameul/BAAD/baad_kws/data/external/_downloads/train.tar.gz...
+2026-11-19 12:52:11 | INFO    | baad.download_fleurs | train: 3006 files, 10.73 h
+2026-11-19 12:52:11 | INFO    | baad.download_fleurs | Extracting /home/sameul4740/Sameul/BAAD/baad_kws/data/external/_downloads/dev.tar.gz...
+2026-11-19 12:52:15 | INFO    | baad.download_fleurs | val: 402 files, 1.45 h
+2026-11-19 12:52:15 | INFO    | baad.download_fleurs | Extracting /home/sameul4740/Sameul/BAAD/baad_kws/data/external/_downloads/test.tar.gz...
+2026-11-19 12:52:23 | INFO    | baad.download_fleurs | test: 920 files, 3.43 h
+2026-11-19 12:52:59 | INFO    | baad.synth_stream | Generated val synthetic streams: {'streams': 250, 'total_hours': 0.694, 'clean_neg_hours': 0.275, 'abusive_events': 220, 'close_events': 86}
+2026-11-19 12:53:03 | INFO    | baad.synth_stream | Generated test synthetic streams: {'streams': 250, 'total_hours': 0.691, 'clean_neg_hours': 0.273, 'abusive_events': 233, 'close_events': 86}
+2026-11-19 12:53:33 | INFO    | baad.baseline_mfcc | MFCC Baseline B1 results: {'fit_sec': 27.55, 'val_word_acc': 0.2543, 'val_macro_f1': 0.2358, 'val_abusive_prec': 0.9266, 'val_abusive_rec': 0.9318, 'val_abusive_f1': 0.9292, 'test_word_acc': 0.2182, 'test_macro_f1': 0.2313, 'test_abusive_prec': 0.9297, 'test_abusive_rec': 0.8924, 'test_abusive_f1': 0.9107}
+2026-11-19 12:53:37 | INFO    | baad.train_bcresnet8_v1_smoke | Starting run=bcresnet8_v1_smoke device=cpu threads=16 classes=154 (abusive=112) smoke=True
+2026-11-19 12:53:39 | INFO    | baad.train_bcresnet8_v1_smoke | Model BCResNet(scale=8) trainable params=256538
+2026-11-19 12:53:49 | INFO    | baad.train_bcresnet8_v1_smoke | ep 01/02 | tr_loss=5.347 va_loss=5.229 | kws_f1=0.000 ab_f1=0.000 (P=0.00 R=0.00 cFP=0.00 uFP=0.00) | iso_acc=0.003 iso_f1=0.000 | 9.1s
+2026-11-19 12:53:57 | INFO    | baad.train_bcresnet8_v1_smoke | ep 02/02 | tr_loss=4.869 va_loss=5.140 | kws_f1=0.001 ab_f1=0.000 (P=0.00 R=0.00 cFP=0.00 uFP=0.00) | iso_acc=0.000 iso_f1=0.000 | 8.4s
+2026-11-19 12:53:59 | INFO    | baad.train_bcresnet8_v1_smoke | Training finished in 0.31 min. Best: {'epoch': 2, 'train_loss': 4.8689, 'val_loss': 5.1397, 'val_acc': 0.0385, 'val_macro_f1': 0.0005, 'val_ab_prec': 0.0, 'val_ab_rec': 0.0, 'val_ab_f1': 0.0, 'val_close_fp': 0.0, 'val_unk_fp': 0.0, 'iso_acc': 0.0, 'iso_macro_f1': 0.0, 'iso_ab_f1': 0.0, 'score': 0.0002, 'lr': 0.003, 'epoch_sec': 8.38}
+2026-11-19 12:54:23 | INFO    | baad.train_bench_ep1 | Starting run=bench_ep1 device=cpu threads=16 classes=154 (abusive=112) smoke=False
+2026-11-19 12:54:28 | INFO    | baad.train_bench_ep1 | Model BCResNet(scale=8) trainable params=256538
+2026-11-19 12:57:52 | INFO    | baad.train_bench_ep1 | Starting run=bench_ep1 device=cpu threads=8 classes=154 (abusive=112) smoke=False
+2026-11-19 12:57:56 | INFO    | baad.train_bench_ep1 | Model BCResNet(scale=6) trainable params=151738
+2026-11-19 12:58:45 | INFO    | baad.train_bench_ep1 | ep 01/01 | tr_loss=4.140 va_loss=4.692 | kws_f1=0.008 ab_f1=0.000 (P=0.00 R=0.00 cFP=0.00 uFP=0.00) | iso_acc=0.000 iso_f1=0.000 | 47.5s
+2026-11-19 12:58:45 | INFO    | baad.train_bench_ep1 | Training finished in 0.80 min. Best: {'epoch': 1, 'train_loss': 4.1396, 'val_loss': 4.6922, 'val_acc': 0.2202, 'val_macro_f1': 0.0076, 'val_ab_prec': 0.0, 'val_ab_rec': 0.0, 'val_ab_f1': 0.0, 'val_close_fp': 0.0, 'val_unk_fp': 0.0, 'iso_acc': 0.0, 'iso_macro_f1': 0.0, 'iso_ab_f1': 0.0, 'score': 0.0038, 'lr': 0.003, 'epoch_sec': 47.52}
+2026-11-19 12:59:11 | INFO    | baad.train_bcresnet6_v1 | Starting run=bcresnet6_v1 device=cpu threads=8 classes=154 (abusive=112) smoke=False
+2026-11-19 12:59:16 | INFO    | baad.train_bcresnet6_v1 | Model BCResNet(scale=6) trainable params=151738
+2026-11-19 13:00:04 | INFO    | baad.train_bcresnet6_v1 | ep 01/30 | tr_loss=4.255 va_loss=4.596 | kws_f1=0.008 ab_f1=0.000 (P=0.00 R=0.00 cFP=0.00 uFP=0.00) | iso_acc=0.000 iso_f1=0.000 | 47.2s
+2026-11-19 13:00:52 | ERROR   | baad.train_bcresnet8_gpu_v1 | CUDA GPU requested (--device cuda) but torch.cuda.is_available() is False. Install the NVIDIA driver (e.g. nvidia-driver-570) and reboot, then verify with `nvidia-smi`.
+2026-11-19 13:24:36 | INFO    | baad.env_gpu_ready | GPU active: {'cuda_available': True, 'gpu_name': 'NVIDIA GeForce GTX 1660 Ti', 'vram_mb': 5747.4, 'driver_cuda': '570.211.01 / CUDA 12.8', 'torch': '2.5.1+cu124'}
+2026-11-19 13:24:39 | INFO    | baad.train_bcresnet8_gpu_smoke | Starting run=bcresnet8_gpu_smoke device=cuda gpu=NVIDIA GeForce GTX 1660 Ti classes=154 (abusive=112) smoke=True
+2026-11-19 13:24:42 | INFO    | baad.train_bcresnet8_gpu_smoke | Model BCResNet(scale=8) trainable params=256538
+2026-11-19 13:24:46 | INFO    | baad.train_bcresnet8_gpu_smoke | ep 01/02 | tr_loss=5.463 va_loss=5.260 | kws_f1=0.000 ab_f1=0.808 (P=0.68 R=1.00 cFP=1.00 uFP=1.00) | iso_acc=0.005 iso_f1=0.000 | 2.7s
+2026-11-19 13:24:48 | INFO    | baad.train_bcresnet8_gpu_smoke | ep 02/02 | tr_loss=5.193 va_loss=5.237 | kws_f1=0.001 ab_f1=0.000 (P=0.00 R=0.00 cFP=0.00 uFP=0.00) | iso_acc=0.000 iso_f1=0.000 | 1.9s
+2026-11-19 13:24:50 | INFO    | baad.train_bcresnet8_gpu_smoke | Training finished in 0.10 min. Best: {'epoch': 1, 'train_loss': 5.4635, 'val_loss': 5.2603, 'val_acc': 0.0038, 'val_macro_f1': 0.0, 'val_ab_prec': 0.6774, 'val_ab_rec': 1.0, 'val_ab_f1': 0.8077, 'val_close_fp': 1.0, 'val_unk_fp': 1.0, 'iso_acc': 0.005, 'iso_macro_f1': 0.0001, 'iso_ab_f1': 0.9367, 'score': 0.4039, 'lr': 0.003, 'epoch_sec': 2.68}
+2026-11-19 13:25:05 | INFO    | baad.train_bcresnet8_gpu_v1 | Starting run=bcresnet8_gpu_v1 device=cuda gpu=NVIDIA GeForce GTX 1660 Ti classes=154 (abusive=112) smoke=False
+2026-11-19 13:25:11 | INFO    | baad.train_bcresnet8_gpu_v1 | Model BCResNet(scale=8) trainable params=256538
+2026-11-19 13:25:35 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 01/60 | tr_loss=4.274 va_loss=4.579 | kws_f1=0.009 ab_f1=0.064 (P=0.85 R=0.03 cFP=0.00 uFP=0.02) | iso_acc=0.003 iso_f1=0.001 | 23.0s
+2026-11-19 13:25:57 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 02/60 | tr_loss=3.871 va_loss=4.439 | kws_f1=0.010 ab_f1=0.559 (P=0.92 R=0.40 cFP=0.09 uFP=0.08) | iso_acc=0.008 iso_f1=0.001 | 22.3s
+2026-11-19 13:26:19 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 03/60 | tr_loss=3.739 va_loss=4.480 | kws_f1=0.012 ab_f1=0.101 (P=0.94 R=0.05 cFP=0.00 uFP=0.01) | iso_acc=0.009 iso_f1=0.007 | 22.3s
+2026-11-19 13:26:42 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 04/60 | tr_loss=3.485 va_loss=4.111 | kws_f1=0.027 ab_f1=0.395 (P=0.93 R=0.25 cFP=0.13 uFP=0.01) | iso_acc=0.033 iso_f1=0.021 | 22.3s
+2026-11-19 13:27:04 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 05/60 | tr_loss=3.251 va_loss=3.656 | kws_f1=0.057 ab_f1=0.559 (P=0.92 R=0.40 cFP=0.19 uFP=0.04) | iso_acc=0.092 iso_f1=0.058 | 22.3s
+2026-11-19 13:27:26 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 06/60 | tr_loss=2.966 va_loss=3.440 | kws_f1=0.128 ab_f1=0.589 (P=0.92 R=0.43 cFP=0.13 uFP=0.06) | iso_acc=0.166 iso_f1=0.149 | 22.4s
+2026-11-19 13:27:49 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 07/60 | tr_loss=2.655 va_loss=2.852 | kws_f1=0.280 ab_f1=0.771 (P=0.92 R=0.66 cFP=0.19 uFP=0.11) | iso_acc=0.385 iso_f1=0.342 | 22.6s
+2026-11-19 13:28:11 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 08/60 | tr_loss=2.338 va_loss=2.475 | kws_f1=0.402 ab_f1=0.832 (P=0.90 R=0.77 cFP=0.31 uFP=0.15) | iso_acc=0.466 iso_f1=0.449 | 22.2s
+2026-11-19 13:28:34 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 09/60 | tr_loss=2.097 va_loss=2.445 | kws_f1=0.424 ab_f1=0.750 (P=0.93 R=0.63 cFP=0.14 uFP=0.09) | iso_acc=0.477 iso_f1=0.482 | 22.5s
+2026-11-19 13:28:56 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 10/60 | tr_loss=1.884 va_loss=2.447 | kws_f1=0.470 ab_f1=0.741 (P=0.98 R=0.60 cFP=0.11 uFP=0.00) | iso_acc=0.488 iso_f1=0.525 | 22.2s
+2026-11-19 13:29:19 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 11/60 | tr_loss=1.781 va_loss=2.135 | kws_f1=0.558 ab_f1=0.795 (P=0.96 R=0.68 cFP=0.08 uFP=0.06) | iso_acc=0.631 iso_f1=0.637 | 22.6s
+2026-11-19 13:29:41 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 12/60 | tr_loss=1.663 va_loss=1.883 | kws_f1=0.614 ab_f1=0.836 (P=0.96 R=0.74 cFP=0.19 uFP=0.02) | iso_acc=0.654 iso_f1=0.659 | 22.4s
+2026-11-19 13:30:03 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 13/60 | tr_loss=1.585 va_loss=2.311 | kws_f1=0.523 ab_f1=0.764 (P=0.96 R=0.63 cFP=0.14 uFP=0.02) | iso_acc=0.563 iso_f1=0.577 | 22.1s
+2026-11-19 13:30:25 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 14/60 | tr_loss=1.474 va_loss=1.658 | kws_f1=0.695 ab_f1=0.879 (P=0.95 R=0.82 cFP=0.16 uFP=0.06) | iso_acc=0.734 iso_f1=0.735 | 22.1s
+2026-11-19 13:30:48 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 15/60 | tr_loss=1.430 va_loss=2.129 | kws_f1=0.593 ab_f1=0.765 (P=0.98 R=0.63 cFP=0.08 uFP=0.00) | iso_acc=0.598 iso_f1=0.649 | 22.8s
+2026-11-19 13:31:11 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 16/60 | tr_loss=1.364 va_loss=1.600 | kws_f1=0.724 ab_f1=0.882 (P=0.96 R=0.81 cFP=0.10 uFP=0.06) | iso_acc=0.748 iso_f1=0.768 | 22.4s
+2026-11-19 13:31:33 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 17/60 | tr_loss=1.336 va_loss=1.749 | kws_f1=0.705 ab_f1=0.836 (P=0.98 R=0.73 cFP=0.06 uFP=0.02) | iso_acc=0.721 iso_f1=0.755 | 22.3s
+2026-11-19 13:31:55 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 18/60 | tr_loss=1.298 va_loss=1.491 | kws_f1=0.768 ab_f1=0.912 (P=0.95 R=0.88 cFP=0.16 uFP=0.10) | iso_acc=0.817 iso_f1=0.814 | 22.1s
+2026-11-19 13:32:17 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 19/60 | tr_loss=1.244 va_loss=1.707 | kws_f1=0.738 ab_f1=0.847 (P=0.97 R=0.75 cFP=0.08 uFP=0.03) | iso_acc=0.720 iso_f1=0.769 | 22.0s
+2026-11-19 13:32:39 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 20/60 | tr_loss=1.244 va_loss=1.702 | kws_f1=0.739 ab_f1=0.851 (P=0.99 R=0.75 cFP=0.06 uFP=0.01) | iso_acc=0.748 iso_f1=0.782 | 22.2s
+2026-11-19 13:33:02 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 21/60 | tr_loss=1.204 va_loss=1.504 | kws_f1=0.767 ab_f1=0.885 (P=0.97 R=0.82 cFP=0.10 uFP=0.05) | iso_acc=0.783 iso_f1=0.815 | 22.3s
+2026-11-19 13:33:24 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 22/60 | tr_loss=1.161 va_loss=1.415 | kws_f1=0.770 ab_f1=0.900 (P=0.97 R=0.84 cFP=0.10 uFP=0.03) | iso_acc=0.813 iso_f1=0.827 | 22.3s
+2026-11-19 13:33:46 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 23/60 | tr_loss=1.146 va_loss=1.717 | kws_f1=0.716 ab_f1=0.829 (P=0.98 R=0.72 cFP=0.06 uFP=0.03) | iso_acc=0.735 iso_f1=0.778 | 22.2s
+2026-11-19 13:34:08 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 24/60 | tr_loss=1.107 va_loss=1.512 | kws_f1=0.779 ab_f1=0.887 (P=0.98 R=0.81 cFP=0.03 uFP=0.03) | iso_acc=0.780 iso_f1=0.815 | 22.2s
+2026-11-19 13:34:31 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 25/60 | tr_loss=1.100 va_loss=1.528 | kws_f1=0.767 ab_f1=0.870 (P=0.97 R=0.79 cFP=0.06 uFP=0.06) | iso_acc=0.778 iso_f1=0.815 | 22.2s
+2026-11-19 13:34:53 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 26/60 | tr_loss=1.096 va_loss=1.656 | kws_f1=0.749 ab_f1=0.850 (P=0.98 R=0.75 cFP=0.07 uFP=0.02) | iso_acc=0.742 iso_f1=0.789 | 22.1s
+2026-11-19 13:35:15 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 27/60 | tr_loss=1.074 va_loss=1.476 | kws_f1=0.807 ab_f1=0.889 (P=0.98 R=0.81 cFP=0.06 uFP=0.04) | iso_acc=0.812 iso_f1=0.849 | 22.1s
+2026-11-19 13:35:37 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 28/60 | tr_loss=1.048 va_loss=1.463 | kws_f1=0.785 ab_f1=0.880 (P=0.98 R=0.80 cFP=0.08 uFP=0.02) | iso_acc=0.799 iso_f1=0.831 | 22.1s
+2026-11-19 13:35:59 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 29/60 | tr_loss=1.024 va_loss=1.563 | kws_f1=0.791 ab_f1=0.878 (P=0.97 R=0.80 cFP=0.05 uFP=0.05) | iso_acc=0.774 iso_f1=0.822 | 22.3s
+2026-11-19 13:36:22 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 30/60 | tr_loss=1.035 va_loss=1.404 | kws_f1=0.809 ab_f1=0.896 (P=0.97 R=0.83 cFP=0.05 uFP=0.05) | iso_acc=0.796 iso_f1=0.839 | 22.5s
+2026-11-19 13:36:44 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 31/60 | tr_loss=1.028 va_loss=1.644 | kws_f1=0.763 ab_f1=0.850 (P=0.97 R=0.76 cFP=0.05 uFP=0.05) | iso_acc=0.741 iso_f1=0.788 | 22.4s
+2026-11-19 13:37:07 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 32/60 | tr_loss=1.006 va_loss=1.548 | kws_f1=0.778 ab_f1=0.867 (P=0.98 R=0.78 cFP=0.03 uFP=0.04) | iso_acc=0.769 iso_f1=0.819 | 22.7s
+2026-11-19 13:37:30 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 33/60 | tr_loss=0.993 va_loss=1.567 | kws_f1=0.774 ab_f1=0.865 (P=0.99 R=0.77 cFP=0.02 uFP=0.03) | iso_acc=0.757 iso_f1=0.808 | 23.2s
+2026-11-19 13:37:53 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 34/60 | tr_loss=0.974 va_loss=1.512 | kws_f1=0.763 ab_f1=0.872 (P=0.98 R=0.79 cFP=0.09 uFP=0.02) | iso_acc=0.751 iso_f1=0.793 | 23.2s
+2026-11-19 13:38:16 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 35/60 | tr_loss=0.982 va_loss=1.395 | kws_f1=0.805 ab_f1=0.886 (P=0.98 R=0.81 cFP=0.07 uFP=0.03) | iso_acc=0.800 iso_f1=0.826 | 22.5s
+2026-11-19 13:38:38 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 36/60 | tr_loss=0.959 va_loss=1.416 | kws_f1=0.811 ab_f1=0.890 (P=0.99 R=0.81 cFP=0.02 uFP=0.01) | iso_acc=0.807 iso_f1=0.839 | 22.5s
+2026-11-19 13:39:01 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 37/60 | tr_loss=0.941 va_loss=1.354 | kws_f1=0.826 ab_f1=0.907 (P=0.98 R=0.84 cFP=0.03 uFP=0.03) | iso_acc=0.830 iso_f1=0.854 | 22.6s
+2026-11-19 13:39:24 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 38/60 | tr_loss=0.941 va_loss=1.470 | kws_f1=0.812 ab_f1=0.891 (P=0.97 R=0.82 cFP=0.08 uFP=0.05) | iso_acc=0.802 iso_f1=0.845 | 22.9s
+2026-11-19 13:39:47 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 39/60 | tr_loss=0.948 va_loss=1.493 | kws_f1=0.810 ab_f1=0.887 (P=0.98 R=0.81 cFP=0.02 uFP=0.05) | iso_acc=0.785 iso_f1=0.832 | 23.1s
+2026-11-19 13:40:10 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 40/60 | tr_loss=0.940 va_loss=1.472 | kws_f1=0.801 ab_f1=0.878 (P=0.98 R=0.79 cFP=0.05 uFP=0.03) | iso_acc=0.762 iso_f1=0.807 | 22.8s
+2026-11-19 13:40:33 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 41/60 | tr_loss=0.910 va_loss=1.478 | kws_f1=0.815 ab_f1=0.883 (P=0.99 R=0.80 cFP=0.03 uFP=0.01) | iso_acc=0.778 iso_f1=0.825 | 22.7s
+2026-11-19 13:40:55 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 42/60 | tr_loss=0.905 va_loss=1.429 | kws_f1=0.820 ab_f1=0.892 (P=0.97 R=0.82 cFP=0.05 uFP=0.06) | iso_acc=0.809 iso_f1=0.854 | 22.6s
+2026-11-19 13:41:17 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 43/60 | tr_loss=0.905 va_loss=1.416 | kws_f1=0.835 ab_f1=0.894 (P=0.98 R=0.82 cFP=0.03 uFP=0.04) | iso_acc=0.822 iso_f1=0.858 | 22.3s
+2026-11-19 13:41:40 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 44/60 | tr_loss=0.893 va_loss=1.495 | kws_f1=0.814 ab_f1=0.885 (P=0.98 R=0.80 cFP=0.03 uFP=0.04) | iso_acc=0.786 iso_f1=0.834 | 22.2s
+2026-11-19 13:42:02 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 45/60 | tr_loss=0.885 va_loss=1.401 | kws_f1=0.823 ab_f1=0.896 (P=0.99 R=0.82 cFP=0.02 uFP=0.03) | iso_acc=0.806 iso_f1=0.844 | 22.3s
+2026-11-19 13:42:25 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 46/60 | tr_loss=0.881 va_loss=1.428 | kws_f1=0.816 ab_f1=0.890 (P=0.98 R=0.81 cFP=0.03 uFP=0.03) | iso_acc=0.794 iso_f1=0.833 | 22.8s
+2026-11-19 13:42:47 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 47/60 | tr_loss=0.871 va_loss=1.391 | kws_f1=0.824 ab_f1=0.895 (P=0.99 R=0.82 cFP=0.01 uFP=0.02) | iso_acc=0.807 iso_f1=0.845 | 22.3s
+2026-11-19 13:43:10 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 48/60 | tr_loss=0.863 va_loss=1.357 | kws_f1=0.834 ab_f1=0.900 (P=0.99 R=0.83 cFP=0.03 uFP=0.03) | iso_acc=0.829 iso_f1=0.865 | 22.5s
+2026-11-19 13:43:32 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 49/60 | tr_loss=0.876 va_loss=1.375 | kws_f1=0.829 ab_f1=0.899 (P=0.99 R=0.83 cFP=0.03 uFP=0.03) | iso_acc=0.814 iso_f1=0.848 | 22.7s
+2026-11-19 13:43:55 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 50/60 | tr_loss=0.866 va_loss=1.397 | kws_f1=0.827 ab_f1=0.895 (P=0.98 R=0.82 cFP=0.02 uFP=0.04) | iso_acc=0.816 iso_f1=0.848 | 22.4s
+2026-11-19 13:44:17 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 51/60 | tr_loss=0.872 va_loss=1.392 | kws_f1=0.830 ab_f1=0.895 (P=0.98 R=0.82 cFP=0.02 uFP=0.04) | iso_acc=0.817 iso_f1=0.854 | 22.5s
+2026-11-19 13:44:40 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 52/60 | tr_loss=0.849 va_loss=1.412 | kws_f1=0.826 ab_f1=0.892 (P=0.98 R=0.82 cFP=0.03 uFP=0.04) | iso_acc=0.808 iso_f1=0.845 | 22.5s
+2026-11-19 13:45:02 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 53/60 | tr_loss=0.860 va_loss=1.376 | kws_f1=0.830 ab_f1=0.897 (P=0.98 R=0.83 cFP=0.03 uFP=0.04) | iso_acc=0.819 iso_f1=0.856 | 22.3s
+2026-11-19 13:45:25 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 54/60 | tr_loss=0.853 va_loss=1.402 | kws_f1=0.827 ab_f1=0.897 (P=0.98 R=0.82 cFP=0.03 uFP=0.04) | iso_acc=0.808 iso_f1=0.843 | 22.3s
+2026-11-19 13:45:47 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 55/60 | tr_loss=0.854 va_loss=1.394 | kws_f1=0.826 ab_f1=0.895 (P=0.98 R=0.82 cFP=0.03 uFP=0.04) | iso_acc=0.812 iso_f1=0.847 | 22.2s
+2026-11-19 13:46:09 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 56/60 | tr_loss=0.847 va_loss=1.404 | kws_f1=0.827 ab_f1=0.894 (P=0.98 R=0.82 cFP=0.03 uFP=0.04) | iso_acc=0.808 iso_f1=0.843 | 22.6s
+2026-11-19 13:46:32 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 57/60 | tr_loss=0.845 va_loss=1.407 | kws_f1=0.831 ab_f1=0.892 (P=0.98 R=0.82 cFP=0.02 uFP=0.04) | iso_acc=0.811 iso_f1=0.852 | 22.1s
+2026-11-19 13:46:54 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 58/60 | tr_loss=0.852 va_loss=1.393 | kws_f1=0.832 ab_f1=0.897 (P=0.98 R=0.82 cFP=0.03 uFP=0.04) | iso_acc=0.813 iso_f1=0.849 | 22.4s
+2026-11-19 13:47:16 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 59/60 | tr_loss=0.845 va_loss=1.386 | kws_f1=0.832 ab_f1=0.897 (P=0.98 R=0.83 cFP=0.03 uFP=0.04) | iso_acc=0.815 iso_f1=0.851 | 22.3s
+2026-11-19 13:47:38 | INFO    | baad.train_bcresnet8_gpu_v1 | ep 60/60 | tr_loss=0.846 va_loss=1.406 | kws_f1=0.828 ab_f1=0.893 (P=0.98 R=0.82 cFP=0.03 uFP=0.04) | iso_acc=0.808 iso_f1=0.846 | 22.2s
+2026-11-19 13:47:39 | INFO    | baad.train_bcresnet8_gpu_v1 | Training finished in 22.45 min. Best: {'epoch': 48, 'train_loss': 0.8632, 'val_loss': 1.3573, 'val_acc': 0.8314, 'val_macro_f1': 0.8341, 'val_ab_prec': 0.9864, 'val_ab_rec': 0.8273, 'val_ab_f1': 0.8999, 'val_close_fp': 0.0252, 'val_unk_fp': 0.028, 'iso_acc': 0.8288, 'iso_macro_f1': 0.8653, 'iso_ab_f1': 0.9219, 'score': 0.867, 'lr': 0.000378, 'epoch_sec': 22.48}
+2026-11-19 13:47:53 | INFO    | baad.evaluate | Isolated evaluation: {'val_iso_top1': 0.8288, 'val_iso_top5': 0.955, 'val_iso_macro_f1': 0.8653, 'val_iso_ab_prec': 0.996, 'val_iso_ab_rec': 0.858, 'val_iso_ab_f1': 0.9219, 'test_iso_top1': 0.8707, 'test_iso_top5': 0.9859, 'test_iso_macro_f1': 0.8722, 'test_iso_ab_prec': 0.9889, 'test_iso_ab_rec': 0.9188, 'test_iso_ab_f1': 0.9526}
+2026-11-19 13:49:04 | INFO    | baad.evaluate | Tuned val threshold: {'smooth_k': 4, 'threshold': 0.85, 'binary_threshold': 0.95, 'event_any_prec': 0.9638, 'event_any_rec': 0.6045, 'event_any_f1': 0.743, 'event_exact_prec': 0.9565, 'event_exact_rec': 0.6, 'event_exact_f1': 0.7374, 'sent_prec': 0.9811, 'sent_rec': 0.6933, 'sent_f1': 0.8125, 'sent_auc': 0.9217, 'clean_neg_fa': 4, 'clean_neg_hours': 0.2752, 'fa_per_hour': 14.53, 'close_neg_fa_rate': 0.0}
+2026-11-19 13:49:14 | INFO    | baad.evaluate | Held-out Test continuous metrics: {'smooth_k': 4, 'threshold': 0.85, 'binary_threshold': 0.95, 'event_any_prec': 0.9351, 'event_any_rec': 0.618, 'event_any_f1': 0.7442, 'event_exact_prec': 0.8961, 'event_exact_rec': 0.5923, 'event_exact_f1': 0.7132, 'sent_prec': 0.9565, 'sent_rec': 0.7333, 'sent_f1': 0.8302, 'sent_auc': 0.9213, 'clean_neg_fa': 5, 'clean_neg_hours': 0.2727, 'fa_per_hour': 18.34, 'close_neg_fa_rate': 0.1}
+2026-11-19 13:51:27 | INFO    | baad.evaluate | Raw Data test evaluation: {'raw_test_files': 9, 'raw_total_detections': 522}
+2026-11-19 13:51:46 | INFO    | baad.export | Exported FP32 ONNX: runs/bcresnet8_gpu_v1/export/baad_kws_fp32.onnx (1441.4 KB)
+2026-11-19 13:51:46 | INFO    | baad.export | Found 15 logmel nodes in ONNX graph
+2026-11-19 13:51:50 | INFO    | baad.export | Quantization candidate backbone_int8: size=843.6 KB parity={'pt_vs_fp32_max_abs_diff': 9e-06, 'fp32_vs_int8_top1_agree': 0.915, 'fp32_vs_int8_cos_sim': 0.99497}
+2026-11-19 13:51:53 | INFO    | baad.export | Quantization candidate full_int8: size=530.2 KB parity={'pt_vs_fp32_max_abs_diff': 9e-06, 'fp32_vs_int8_top1_agree': 0.22, 'fp32_vs_int8_cos_sim': 0.88206}
+2026-11-19 13:51:54 | INFO    | baad.export | Final export metrics: {'fp32_kb': 1441.4, 'int8_kb': 843.6, 'int8_mb': 0.824, 'pt_vs_fp32_max_abs_diff': 9e-06, 'fp32_vs_int8_top1_agree': 0.915, 'fp32_vs_int8_cos_sim': 0.99497, 't1_mean_ms': 2.764, 't1_median_ms': 2.761, 't1_p95_ms': 2.785, 't2_mean_ms': 2.287, 't2_median_ms': 2.287, 't2_p95_ms': 2.305}
+2026-11-19 13:52:52 | INFO    | baad.evaluate | Isolated evaluation: {'val_iso_top1': 0.8288, 'val_iso_top5': 0.955, 'val_iso_macro_f1': 0.8653, 'val_iso_ab_prec': 0.996, 'val_iso_ab_rec': 0.858, 'val_iso_ab_f1': 0.9219, 'test_iso_top1': 0.8707, 'test_iso_top5': 0.9859, 'test_iso_macro_f1': 0.8722, 'test_iso_ab_prec': 0.9889, 'test_iso_ab_rec': 0.9188, 'test_iso_ab_f1': 0.9526}
+2026-11-19 13:54:05 | INFO    | baad.evaluate | Tuned val threshold: {'smooth_k': 4, 'threshold': 0.9, 'binary_threshold': 0.95, 'event_any_prec': 0.9846, 'event_any_rec': 0.5818, 'event_any_f1': 0.7314, 'event_exact_prec': 0.9692, 'event_exact_rec': 0.5727, 'event_exact_f1': 0.72, 'sent_prec': 0.9902, 'sent_rec': 0.6733, 'sent_f1': 0.8016, 'sent_auc': 0.9217, 'clean_neg_fa': 1, 'clean_neg_hours': 0.2752, 'fa_per_hour': 3.63, 'close_neg_fa_rate': 0.0}
+2026-11-19 13:54:15 | INFO    | baad.evaluate | Held-out Test continuous metrics: {'smooth_k': 4, 'threshold': 0.9, 'binary_threshold': 0.95, 'event_any_prec': 0.9632, 'event_any_rec': 0.5622, 'event_any_f1': 0.71, 'event_exact_prec': 0.9485, 'event_exact_rec': 0.5536, 'event_exact_f1': 0.6992, 'sent_prec': 0.9712, 'sent_rec': 0.6733, 'sent_f1': 0.7953, 'sent_auc': 0.9213, 'clean_neg_fa': 3, 'clean_neg_hours': 0.2727, 'fa_per_hour': 11.0, 'close_neg_fa_rate': 0.0667}
+2026-11-19 13:55:31 | INFO    | baad.eval_int8_parity | INT8 ONNX held-out test continuous metrics: {'smooth_k': 4, 'threshold': 0.9, 'binary_threshold': 0.95, 'event_any_prec': 0.9262, 'event_any_rec': 0.485, 'event_any_f1': 0.6366, 'event_exact_prec': 0.9016, 'event_exact_rec': 0.4721, 'event_exact_f1': 0.6197, 'sent_prec': 0.9789, 'sent_rec': 0.62, 'sent_f1': 0.7592, 'sent_auc': 0.9024, 'clean_neg_fa': 2, 'clean_neg_hours': 0.2727, 'fa_per_hour': 7.34, 'close_neg_fa_rate': 0.0333}
+2026-11-19 13:55:59 | INFO    | baad.live | File test_pos_0000.wav (10.88s): offensive=True events=1
+2026-11-19 13:56:00 | INFO    | baad.live | File test_neg_pure_0030.wav (9.25s): offensive=False events=0
+2026-11-19 13:56:49 | INFO    | baad.live | File test_pos_0000.wav (10.88s): offensive=True events=1

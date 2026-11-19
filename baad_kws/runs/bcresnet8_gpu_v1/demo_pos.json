@@ -1,0 +1,19 @@
+{
+  "duration": 10.878,
+  "sentence_is_offensive": true,
+  "num_abusive_events": 1,
+  "vad_active_ratio": 1.0,
+  "events": [
+    {
+      "word": "গু-খা",
+      "label_id": 51,
+      "is_abusive": true,
+      "kind": "abusive",
+      "start": 0.15,
+      "end": 0.9,
+      "score": 0.9754,
+      "p_abusive": 0.988
+    }
+  ],
+  "file": "data/synth/test/audio/test_pos_0000.wav"
+}

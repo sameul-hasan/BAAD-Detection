@@ -1,0 +1,10 @@
+2026-11-19 12:49:11 | INFO    | baad.splits | Split breakdown:
+                    clips  speakers  female_ratio
+speaker_pool split                               
+abusive      test     871         9         0.295
+             train   3514        42         0.336
+             val      877         9         0.304
+close        test     119         3         0.345
+             train    583        17         0.307
+             val      122         3         0.328
+2026-11-19 12:49:11 | INFO    | baad.splits | Missing labels -> train:[] val:[] test:[]

@@ -1,0 +1,108 @@
+audio,kind,error,start,end,pred_word,true_word,score
+synth/test/audio/test_pos_0000.wav,pos,FN,5.7192,6.4573,_missed_,পুটকি-মারা,0.0
+synth/test/audio/test_pos_0002.wav,pos,FN,1.0146,1.5126,_missed_,ভগচোদ,0.0
+synth/test/audio/test_pos_0003.wav,pos,FN,5.2062,5.8422,_missed_,বাল পাকনা,0.0
+synth/test/audio/test_pos_0003.wav,pos,FN,9.4892,10.3422,_missed_,চামছা,0.0
+synth/test/audio/test_pos_0004.wav,pos,FN,5.5809,6.5119,_missed_,বোকাচোদা,0.0
+synth/test/audio/test_pos_0005.wav,pos,FN,5.8789,6.5609,_missed_,আচুদা,0.0
+synth/test/audio/test_pos_0007.wav,pos,FN,1.3611,2.3191,_missed_,যারয পোলা,0.0
+synth/test/audio/test_pos_0011.wav,pos,FN,8.9622,9.8972,_missed_,হুমুন্দির-পুত,0.0
+synth/test/audio/test_pos_0012.wav,pos,FN,5.6868,5.9459,_missed_,কুত্তি,0.0
+synth/test/audio/test_pos_0013.wav,pos,FN,0.9881,1.7701,_missed_,নেশাখোর,0.0
+synth/test/audio/test_pos_0014.wav,pos,FN,1.9268,2.9488,_missed_,মাগিখোর,0.0
+synth/test/audio/test_pos_0016.wav,pos,FN,8.2007,8.9687,_missed_,গাঞ্জাখর,0.0
+synth/test/audio/test_pos_0018.wav,pos,FN,1.0479,2.3699,_missed_,তালেবান,0.0
+synth/test/audio/test_pos_0020.wav,pos,FN,5.9609,6.4969,_missed_,জামাত,0.0
+synth/test/audio/test_pos_0020.wav,pos,FN,8.1763,8.6783,_missed_,জামাত,0.0
+synth/test/audio/test_pos_0021.wav,pos,FN,7.1961,7.9671,_missed_,নিগ্রো,0.0
+synth/test/audio/test_pos_0022.wav,pos,FN,3.4388,4.0539,_missed_,জূতামু,0.0
+synth/test/audio/test_pos_0023.wav,pos,FN,5.1665,5.9346,_missed_,মাল,0.0
+synth/test/audio/test_pos_0024.wav,pos,FN,3.3306,3.5896,_missed_,কুত্তি,0.0
+synth/test/audio/test_pos_0024.wav,pos,FN,6.9915,7.6855,_missed_,কুত্তা,0.0
+synth/test/audio/test_pos_0026.wav,pos,FN,6.0972,6.7612,_missed_,ধইঞ্চা,0.0
+synth/test/audio/test_pos_0027.wav,pos,FN,10.1397,11.0447,_missed_,হুমুন্দির-পুত,0.0
+synth/test/audio/test_pos_0029.wav,pos,FN,4.1906,4.6596,_missed_,বোকাচোদা,0.0
+synth/test/audio/test_pos_0030.wav,pos,FN,6.0966,6.6686,_missed_,গরুচোর,0.0
+synth/test/audio/test_pos_0031.wav,pos,FN,10.6539,11.1899,_missed_,বকলম,0.0
+synth/test/audio/test_pos_0032.wav,pos,FN,1.078,1.679,_missed_,বাইনচোদ,0.0
+synth/test/audio/test_pos_0032.wav,pos,FN,4.2911,6.1551,_missed_,ধুর বাল,0.0
+synth/test/audio/test_pos_0033.wav,pos,FN,7.6604,8.5754,_missed_,হিজড়া,0.0
+synth/test/audio/test_pos_0042.wav,pos,FN,5.5098,6.1718,_missed_,লেউরা,0.0
+synth/test/audio/test_pos_0043.wav,pos,FN,1.4681,1.9601,_missed_,দালাল,0.0
+synth/test/audio/test_pos_0048.wav,pos,FN,4.9369,5.865,_missed_,ছ্যাসরা,0.0
+synth/test/audio/test_pos_0050.wav,pos,FN,5.4577,5.8838,_missed_,শালা,0.0
+synth/test/audio/test_pos_0051.wav,pos,FN,6.7651,7.3212,_missed_,গাধা,0.0
+synth/test/audio/test_pos_0054.wav,pos,FN,1.8041,2.4801,_missed_,বকলম,0.0
+synth/test/audio/test_pos_0055.wav,pos,FN,3.52,4.29,_missed_,কাচ কলা,0.0
+synth/test/audio/test_pos_0056.wav,pos,FN,3.8275,4.2756,_missed_,শালা,0.0
+synth/test/audio/test_pos_0056.wav,pos,FN,6.7081,7.8262,_missed_,ঠ্যাঙ্গা,0.0
+synth/test/audio/test_pos_0057.wav,pos,FN,0.4846,1.0156,_missed_,শয়তান,0.0
+synth/test/audio/test_pos_0057.wav,pos,FN,3.4714,4.0054,_missed_,নলা,0.0
+synth/test/audio/test_pos_0058.wav,pos,FN,1.5005,2.0956,_missed_,গাউড়াা,0.0
+synth/test/audio/test_pos_0058.wav,pos,FN,4.7818,5.6609,_missed_,হিটলার,0.0
+synth/test/audio/test_pos_0059.wav,pos,FN,7.8869,8.6459,_missed_,পাছা-মারা,0.0
+synth/test/audio/test_pos_0060.wav,pos,FN,1.4772,1.9612,_missed_,চুদা,0.0
+synth/test/audio/test_pos_0065.wav,pos,FN,2.7527,3.3828,_missed_,বাদাইম্মা,0.0
+synth/test/audio/test_pos_0066.wav,pos,FN,9.234,9.798,_missed_,হিজড়া,0.0
+synth/test/audio/test_pos_0070.wav,pos,FN,7.8644,8.5644,_missed_,মাগি,0.0
+synth/test/audio/test_pos_0072.wav,pos,FN,0.7029,1.4209,_missed_,সাউয়া,0.0
+synth/test/audio/test_pos_0074.wav,pos,FN,1.5769,2.4299,_missed_,হিরোইঞ্চি,0.0
+synth/test/audio/test_pos_0074.wav,pos,FN,5.2682,5.6992,_missed_,জূতামু,0.0
+synth/test/audio/test_pos_0076.wav,pos,FN,4.6662,5.2602,_missed_,বাল,0.0
+synth/test/audio/test_pos_0076.wav,pos,FN,6.9965,7.9845,_missed_,ফটকা,0.0
+synth/test/audio/test_pos_0077.wav,pos,FN,8.6953,9.2103,_missed_,চুদনা,0.0
+synth/test/audio/test_pos_0078.wav,pos,FN,7.063,7.676,_missed_,শালা,0.0
+synth/test/audio/test_pos_0079.wav,pos,FN,6.5954,7.6814,_missed_,ছ্যাসরা,0.0
+synth/test/audio/test_pos_0080.wav,pos,FN,4.5592,5.3122,_missed_,হাারামজাদা,0.0
+synth/test/audio/test_pos_0082.wav,pos,FN,5.3721,6.0312,_missed_,পাছা-মারা,0.0
+synth/test/audio/test_pos_0083.wav,pos,FN,0.8645,1.4686,_missed_,বগা,0.0
+synth/test/audio/test_pos_0084.wav,pos,FN,7.3639,8.2269,_missed_,সুদখোর,0.0
+synth/test/audio/test_pos_0086.wav,pos,FN,8.7763,9.3893,_missed_,পেদামু,0.0
+synth/test/audio/test_pos_0087.wav,pos,FN,2.9862,3.9982,_missed_,ম্যাঙ্গের-পোলা,0.0
+synth/test/audio/test_pos_0088.wav,pos,FN,0.4694,1.1635,_missed_,রাজাকার,0.0
+synth/test/audio/test_pos_0088.wav,pos,FN,7.8863,8.4303,_missed_,ছ্যাসরা,0.0
+synth/test/audio/test_pos_0089.wav,pos,FN,3.876,4.863,_missed_,যারয পোলা,0.0
+synth/test/audio/test_pos_0090.wav,pos,FN,3.344,3.7721,_missed_,বলদ,0.0
+synth/test/audio/test_pos_0091.wav,pos,FN,8.7598,9.8218,_missed_,খাইস্টা,0.0
+synth/test/audio/test_pos_0093.wav,pos,FN,7.813,8.2821,_missed_,চুদনা,0.0
+synth/test/audio/test_pos_0095.wav,pos,FN,5.3654,5.7754,_missed_,নলা,0.0
+synth/test/audio/test_pos_0096.wav,pos,FP,5.35,6.1,নলা,ধুর বাল,0.597
+synth/test/audio/test_pos_0096.wav,pos,FP,7.85,8.6,বলদ,ধুর বাল,0.652
+synth/test/audio/test_pos_0098.wav,pos,FN,8.04,8.632,_missed_,ফটকা,0.0
+synth/test/audio/test_pos_0102.wav,pos,FN,6.0853,6.6863,_missed_,বাইনচোদ,0.0
+synth/test/audio/test_pos_0102.wav,pos,FN,8.8485,9.7576,_missed_,বেক্কল,0.0
+synth/test/audio/test_pos_0103.wav,pos,FN,1.0941,1.8321,_missed_,নেশাখোর,0.0
+synth/test/audio/test_pos_0103.wav,pos,FN,6.7491,7.3821,_missed_,ধুর-কানা,0.0
+synth/test/audio/test_pos_0104.wav,pos,FN,2.7142,3.6172,_missed_,মিরজাফর,0.0
+synth/test/audio/test_pos_0105.wav,pos,FN,2.0838,2.6237,_missed_,গুয়া-মারা,0.0
+synth/test/audio/test_pos_0105.wav,pos,FN,4.9089,5.5089,_missed_,ভইরা দিমু,0.0
+synth/test/audio/test_pos_0105.wav,pos,FN,7.2377,8.1958,_missed_,যারয পোলা,0.0
+synth/test/audio/test_pos_0108.wav,pos,FN,7.1727,7.9718,_missed_,চামছা,0.0
+synth/test/audio/test_pos_0109.wav,pos,FN,7.6714,8.1044,_missed_,লেদানি,0.0
+synth/test/audio/test_pos_0111.wav,pos,FN,1.3297,2.0547,_missed_,ফকিন্নির-পুত,0.0
+synth/test/audio/test_pos_0112.wav,pos,FN,6.5211,7.3081,_missed_,লুইচ্চা,0.0
+synth/test/audio/test_pos_0113.wav,pos,FN,2.2139,3.2399,_missed_,চুতমারানি,0.0
+synth/test/audio/test_pos_0114.wav,pos,FN,7.028,7.43,_missed_,চুদা,0.0
+synth/test/audio/test_pos_0116.wav,pos,FN,6.0293,6.5993,_missed_,ধুর বাল,0.0
+synth/test/audio/test_pos_0117.wav,pos,FN,1.5825,2.0785,_missed_,জঙ্গি,0.0
+synth/test/audio/test_pos_0117.wav,pos,FN,5.3156,6.1887,_missed_,বারোভাতারি,0.0
+synth/test/audio/test_pos_0119.wav,pos,FN,4.7476,5.4806,_missed_,হেডা,0.0
+synth/test/audio/test_pos_0121.wav,pos,FN,2.1161,3.1061,_missed_,হুমুন্দির-পুত,0.0
+synth/test/audio/test_pos_0121.wav,pos,FN,4.918,5.6161,_missed_,তুই রোহিঙ্গা,0.0
+synth/test/audio/test_pos_0122.wav,pos,FN,2.4263,3.0343,_missed_,পাকিস্তানি,0.0
+synth/test/audio/test_pos_0124.wav,pos,FN,2.5473,3.5713,_missed_,মিরজাফর,0.0
+synth/test/audio/test_pos_0124.wav,pos,FN,5.7832,6.4852,_missed_,হালাায় ভন্ড,0.0
+synth/test/audio/test_pos_0125.wav,pos,FN,0.5707,1.6327,_missed_,খাইস্টা,0.0
+synth/test/audio/test_pos_0130.wav,pos,FN,2.0744,3.3324,_missed_,বাল পাকনা,0.0
+synth/test/audio/test_pos_0131.wav,pos,FN,10.1296,10.7236,_missed_,ভোদাই,0.0
+synth/test/audio/test_pos_0136.wav,pos,FN,2.0604,2.5884,_missed_,হেডাম,0.0
+synth/test/audio/test_pos_0137.wav,pos,FN,1.0326,1.4976,_missed_,ছোট ধন,0.0
+synth/test/audio/test_pos_0139.wav,pos,FN,7.3678,8.3698,_missed_,আচুদা,0.0
+synth/test/audio/test_pos_0140.wav,pos,FN,7.0142,8.0552,_missed_,ছোট ধন,0.0
+synth/test/audio/test_pos_0141.wav,pos,FN,3.2666,3.8426,_missed_,খাঙ্কি,0.0
+synth/test/audio/test_pos_0141.wav,pos,FN,9.2353,10.0273,_missed_,খাঙ্কি,0.0
+synth/test/audio/test_pos_0147.wav,pos,FN,9.7138,10.4609,_missed_,নিগ্রো,0.0
+synth/test/audio/test_pos_0148.wav,pos,FN,4.031,4.2901,_missed_,কুত্তি,0.0
+synth/test/audio/test_neg_close_0013.wav,neg_close,FP,2.55,3.3,ছেন,বেডাম,0.6355
+synth/test/audio/test_neg_close_0015.wav,neg_close,FP,3.85,4.6,বেক্কল,"ধান,বোকা",0.8518
+synth/test/audio/test_neg_pure_0084.wav,neg_pure,FP,0.0,0.7,নিগ্রো,_clean_,0.6922

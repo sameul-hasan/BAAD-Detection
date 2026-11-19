@@ -1,0 +1,2 @@
+2026-11-19 12:52:59 | INFO    | baad.synth_stream | Generated val synthetic streams: {'streams': 250, 'total_hours': 0.694, 'clean_neg_hours': 0.275, 'abusive_events': 220, 'close_events': 86}
+2026-11-19 12:53:03 | INFO    | baad.synth_stream | Generated test synthetic streams: {'streams': 250, 'total_hours': 0.691, 'clean_neg_hours': 0.273, 'abusive_events': 233, 'close_events': 86}
